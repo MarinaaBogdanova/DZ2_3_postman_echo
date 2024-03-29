@@ -17,7 +17,7 @@ public class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("some dat"));
+                .body("data", org.hamcrest.Matchers.equalTo("some data"));
         ;
     }
 
